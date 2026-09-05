@@ -1,0 +1,51 @@
+name: Bug 反馈
+description: 报告可复现的问题，帮助我们改进号捕手
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请先删除 Token、Cookie、手机号、完整本地路径和未公开文章正文。
+  - type: input
+    id: version
+    attributes:
+      label: 号捕手版本
+      placeholder: 例如 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options:
+        - macOS Apple Silicon
+        - Windows（候选验证中）
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请给出最小、可复现的操作步骤；不要粘贴敏感数据。
+      placeholder: |
+        1. 打开……
+        2. 输入……
+        3. 点击……
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果与脱敏截图
+      description: 可拖入脱敏后的截图；诊断日志请先移除 Token、Cookie、手机号、路径和正文。
+    validations:
+      required: true

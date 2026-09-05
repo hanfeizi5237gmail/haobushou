@@ -1,0 +1,36 @@
+name: 功能建议
+description: 提交一个具体、可讨论的产品建议
+title: "[建议] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        好建议会进入需求池评估。请不要在 Issue 中提交账号密码、Token、Cookie 或未公开文章内容。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决什么问题
+      description: 请描述使用场景和当前遇到的阻碍。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望的改进
+      description: 可以描述理想流程、输入输出或界面变化。
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 影响范围
+      options:
+        - 收录 / 同步
+        - 文章档案 / 阅读
+        - 导出 / 备份
+        - 会员 / 授权
+        - 其他
+    validations:
+      required: true
