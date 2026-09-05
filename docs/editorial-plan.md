@@ -7,7 +7,7 @@
 | 事实冻结与竞品复查 | proof、publicity-review | 阅读五份文档、五张原始图及竞品 README | 不把菜单/示例/规划写成实测 | verified |
 | 全文重构 | README、proof、marketing 三份文档 | 对照事实账本逐项复读、链接检查 | 价值先行，边界完整，声口自然 | verified（编辑检查） |
 | 海报与视频 | 七份 SVG/PNG、现有视频脚本/MP4 | node --check；SVG 解析；现有渲染命令；OpenCV 解码 | 比例正确、文字清楚、状态不遮挡 | verified（构建与代理视觉检查） |
-| 复查与交付 | 本文件、Git 远程 | git diff --check；截图 diff；本地链接检查；远程 SHA | 仅宣发变更，无凭证，无未决承诺 | doing（本地复查完成，待推送） |
+| 复查与交付 | 本文件、Git 远程 | git diff --check；截图 diff；本地链接检查；远程 SHA | 仅宣发变更，无凭证，无未决承诺 | verified（内容已推送，远程 SHA 一致） |
 
 阻塞项：暂无需要作者决策的编辑阻塞。EPUB 实际导出、Windows 实机安装、macOS 签名/公证、线上邮件和授权链路没有新增验收证据，不得在本轮宣布完成。
 
@@ -25,3 +25,4 @@
 - 代理逐张查看七张 PNG，另查看视频第 1/5/9/13/17/21 秒抽帧拼图。标题、数字、截图说明没有溢出；原截图状态保留。视频中的小字需配合正文阅读，发布平台实际裁切及配音试读尚未检查。
 - 提交前约定复查：未发现越界文件或改动产品代码；Guardrails dependency: MISSING（未单建编码护栏，按宣发编辑基线约束现有脚本的一处尺寸修复）；Verification dependency: PASS（仅本轮素材范围）。属于常规约定复查，不宣称产品功能可交付。未触及 wananchi-spider 符号，无该项目 GitNexus impact/detect_changes 适用改动。
 - `git diff --check` 通过。未连接生产服务器、操作账号、改变套餐金额或发布社交平台；用户与独立人员人工验收未执行。
+- 宣发内容提交 `861733e3a13ab648d693226e239e9dedaffee37f` 已推送至 `hanfeizi5237gmail/haobushou` 的 main；`git ls-remote origin refs/heads/main` 与本地 SHA 一致。本条为推送后证据回写，不包含进一步文案或素材变更。
