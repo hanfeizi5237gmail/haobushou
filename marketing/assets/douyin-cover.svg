@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1625"/><stop offset=".55" stop-color="#173d59"/><stop offset="1" stop-color="#0c2337"/></linearGradient>
+    <clipPath id="screenOne"><rect x="70" y="505" width="940" height="596" rx="30"/></clipPath>
+    <clipPath id="screenTwo"><rect x="170" y="1190" width="740" height="470" rx="28"/></clipPath>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".38"/></filter>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <circle cx="980" cy="260" r="300" fill="#4bc0d9" opacity=".12"/>
+  <circle cx="40" cy="1730" r="280" fill="#f0c95a" opacity=".12"/>
+  <image x="70" y="75" width="82" height="82" xlink:href="../../assets/logo.png"/>
+  <text x="175" y="122" font-family="PingFang SC, Heiti SC, sans-serif" font-size="28" letter-spacing="5" fill="#bdd7e5">号捕手 · LOCAL ARCHIVE</text>
+  <text x="70" y="285" font-family="PingFang SC, Heiti SC, sans-serif" font-size="84" font-weight="800" fill="#ffffff">你的公众号</text>
+  <text x="70" y="390" font-family="PingFang SC, Heiti SC, sans-serif" font-size="84" font-weight="800" fill="#f2d475">资料库</text>
+  <text x="76" y="458" font-family="PingFang SC, Heiti SC, sans-serif" font-size="31" fill="#c7dce6">从一条公开链接开始，把内容留在自己电脑里</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="505" width="940" height="596" rx="30" fill="#fff"/>
+    <image x="70" y="505" width="940" height="596" preserveAspectRatio="xMidYMid slice" clip-path="url(#screenOne)" xlink:href="../../assets/screenshots/article-capture.png"/>
+  </g>
+  <rect x="126" y="1000" width="326" height="64" rx="32" fill="#143d56" opacity=".95"/>
+  <circle cx="163" cy="1032" r="10" fill="#7de2a7"/>
+  <text x="190" y="1043" font-family="PingFang SC, Heiti SC, sans-serif" font-size="28" font-weight="700" fill="#fff">成功 1 · 失败 0</text>
+
+  <text x="70" y="1160" font-family="PingFang SC, Heiti SC, sans-serif" font-size="29" font-weight="700" fill="#f2d475">01  输入公开文章链接</text>
+  <text x="70" y="1695" font-family="PingFang SC, Heiti SC, sans-serif" font-size="29" font-weight="700" fill="#f2d475">02  落成本地档案，离线阅读</text>
+  <g filter="url(#shadow)">
+    <rect x="170" y="1190" width="740" height="470" rx="28" fill="#fff"/>
+    <image x="170" y="1190" width="740" height="470" preserveAspectRatio="xMidYMid slice" clip-path="url(#screenTwo)" xlink:href="../../assets/screenshots/article-archive.png"/>
+  </g>
+
+  <rect x="70" y="1760" width="940" height="82" rx="41" fill="#f2d475"/>
+  <text x="540" y="1813" text-anchor="middle" font-family="PingFang SC, Heiti SC, sans-serif" font-size="31" font-weight="800" fill="#172238">本地优先 · 可恢复 · 可导出</text>
+  <text x="70" y="1885" font-family="PingFang SC, Heiti SC, sans-serif" font-size="24" fill="#b9d4e4">9.9 元 / 30 天起  ·  会员服务：member.abssqr.com</text>
+</svg>

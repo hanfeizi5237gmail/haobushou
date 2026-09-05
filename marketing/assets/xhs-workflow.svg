@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1c2e"/><stop offset="1" stop-color="#1b536f"/></linearGradient>
+    <clipPath id="a"><rect x="70" y="280" width="940" height="510" rx="28"/></clipPath>
+    <clipPath id="b"><rect x="160" y="860" width="850" height="455" rx="28"/></clipPath>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1080" height="1440" fill="url(#bg)"/>
+  <circle cx="1010" cy="80" r="240" fill="#78c4d7" opacity=".12"/>
+  <text x="70" y="110" font-family="Hiragino Sans GB, Heiti SC, sans-serif" font-size="24" letter-spacing="4" fill="#bdd6e3">号捕手 · 第 2 张</text>
+  <text x="70" y="205" font-family="Hiragino Sans GB, Heiti SC, sans-serif" font-size="58" font-weight="800" fill="#fff">一篇文章，怎么变成本地资料？</text>
+  <g filter="url(#s)"><rect x="70" y="280" width="940" height="510" rx="28" fill="#fff"/><image x="70" y="280" width="940" height="510" preserveAspectRatio="xMidYMid slice" clip-path="url(#a)" xlink:href="../../assets/screenshots/article-capture.png"/></g>
+  <rect x="100" y="706" width="308" height="56" rx="28" fill="#153f58"/><circle cx="134" cy="734" r="9" fill="#72e0aa"/><text x="158" y="744" font-family="Hiragino Sans GB, Heiti SC, sans-serif" font-size="25" font-weight="700" fill="#fff">成功 1 · 失败 0</text>
+  <g transform="translate(70 820)"><circle cx="30" cy="30" r="30" fill="#f2d475"/><text x="30" y="40" text-anchor="middle" font-family="Hiragino Sans GB, sans-serif" font-size="27" font-weight="800" fill="#172238">1</text><text x="78" y="40" font-family="Hiragino Sans GB, sans-serif" font-size="28" font-weight="700" fill="#fff">粘贴一条公开文章链接</text></g>
+  <g filter="url(#s)"><rect x="160" y="860" width="850" height="455" rx="28" fill="#fff"/><image x="160" y="860" width="850" height="455" preserveAspectRatio="xMidYMid slice" clip-path="url(#b)" xlink:href="../../assets/screenshots/article-archive.png"/></g>
+  <g transform="translate(70 1328)"><circle cx="30" cy="30" r="30" fill="#f2d475"/><text x="30" y="40" text-anchor="middle" font-family="Hiragino Sans GB, sans-serif" font-size="27" font-weight="800" fill="#172238">2</text><text x="78" y="40" font-family="Hiragino Sans GB, sans-serif" font-size="28" font-weight="700" fill="#fff">进入档案：检索、阅读、导出</text></g>
+</svg>
