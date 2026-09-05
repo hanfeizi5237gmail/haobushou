@@ -32,7 +32,20 @@ def read_card(name: str) -> np.ndarray:
     image = cv2.imread(str(ASSETS / name), cv2.IMREAD_COLOR)
     if image is None:
         raise FileNotFoundError(ASSETS / name)
-    return cv2.resize(image, SIZE, interpolation=cv2.INTER_AREA)
+    height, width = image.shape[:2]
+    scale = min(SIZE[0] / width, SIZE[1] / height)
+    resized = cv2.resize(
+        image,
+        (round(width * scale), round(height * scale)),
+        interpolation=cv2.INTER_AREA,
+    )
+    # Match the card's background and letterbox without distorting screenshots.
+    canvas = np.empty((SIZE[1], SIZE[0], 3), dtype=np.uint8)
+    canvas[:] = image[0, 0]
+    left = (SIZE[0] - resized.shape[1]) // 2
+    top = (SIZE[1] - resized.shape[0]) // 2
+    canvas[top : top + resized.shape[0], left : left + resized.shape[1]] = resized
+    return canvas
 
 
 def main() -> None:

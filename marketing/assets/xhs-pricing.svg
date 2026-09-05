@@ -1,22 +1,29 @@
+<?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1440" viewBox="0 0 1080 1440">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f4ec"/><stop offset="1" stop-color="#e9f1f4"/></linearGradient><clipPath id="m"><rect x="610" y="120" width="398" height="320" rx="28"/></clipPath></defs>
-  <rect width="1080" height="1440" fill="url(#bg)"/>
-  <circle cx="1000" cy="50" r="230" fill="#b8dfeb" opacity=".45"/><circle cx="30" cy="1400" r="260" fill="#eed98e" opacity=".28"/>
-  <image x="72" y="68" width="72" height="72" xlink:href="../../assets/logo.png"/>
-  <text x="170" y="110" font-family="Hiragino Sans GB, sans-serif" font-size="24" letter-spacing="4" fill="#52687b">号捕手 · 会员方案</text>
-  <text x="72" y="235" font-family="Hiragino Sans GB, sans-serif" font-size="65" font-weight="800" fill="#142238">免费也能用，</text>
-  <text x="72" y="318" font-family="Hiragino Sans GB, sans-serif" font-size="65" font-weight="800" fill="#1f62d3">批量能力再开会员</text>
-  <rect x="72" y="390" width="936" height="250" rx="32" fill="#142238"/>
-  <text x="118" y="463" font-family="Hiragino Sans GB, sans-serif" font-size="28" fill="#b5cfdd">月方案</text><text x="118" y="558" font-family="Hiragino Sans GB, sans-serif" font-size="78" font-weight="800" fill="#f2d475">¥9.9</text><text x="318" y="548" font-family="Hiragino Sans GB, sans-serif" font-size="28" fill="#fff">/ 30 天</text>
-  <line x1="520" y1="432" x2="520" y2="598" stroke="#365368" stroke-width="2"/>
-  <text x="574" y="463" font-family="Hiragino Sans GB, sans-serif" font-size="28" fill="#b5cfdd">年方案</text><text x="574" y="558" font-family="Hiragino Sans GB, sans-serif" font-size="78" font-weight="800" fill="#fff">¥99</text><text x="770" y="548" font-family="Hiragino Sans GB, sans-serif" font-size="28" fill="#fff">/ 360 天</text>
-  <text x="72" y="735" font-family="Hiragino Sans GB, sans-serif" font-size="34" font-weight="800" fill="#142238">普通用户</text>
-  <g font-family="Hiragino Sans GB, sans-serif" font-size="27" fill="#41566a"><text x="72" y="800">✓ 本地文章阅读</text><text x="72" y="858">✓ 单篇基础导出</text><text x="72" y="916">✓ 登录与反馈</text></g>
-  <text x="570" y="735" font-family="Hiragino Sans GB, sans-serif" font-size="34" font-weight="800" fill="#1f62d3">会员用户</text>
-  <g font-family="Hiragino Sans GB, sans-serif" font-size="27" fill="#41566a"><text x="570" y="800">✓ 多篇 / 筛选批量导出</text><text x="570" y="858">✓ 完整数据库备份</text><text x="570" y="916">✓ 设备激活与标准支持</text></g>
-  <rect x="72" y="1000" width="936" height="234" rx="32" fill="#dbeef3"/>
-  <text x="112" y="1065" font-family="Hiragino Sans GB, sans-serif" font-size="30" font-weight="800" fill="#164862">首期怎么开通？</text>
-  <text x="112" y="1122" font-family="Hiragino Sans GB, sans-serif" font-size="26" fill="#3f6071">邮箱验证码登录 → 人工确认收款 → 签发固定天数授权</text>
-  <text x="112" y="1175" font-family="Hiragino Sans GB, sans-serif" font-size="26" fill="#3f6071">不自动续费，不自动扣款；到期后按需再次购买。</text>
-  <rect x="72" y="1282" width="936" height="78" rx="39" fill="#f1d575"/><text x="540" y="1333" text-anchor="middle" font-family="Hiragino Sans GB, sans-serif" font-size="28" font-weight="800" fill="#172238">member.abssqr.com · 人工开通</text>
+  <rect x="0" y="0" width="1080" height="1440" rx="0" fill="#f6f3ec"/>
+  <image x="72" y="64" width="64" height="64" preserveAspectRatio="xMidYMid meet" xlink:href="../../assets/logo.png"/>
+  <text x="160" y="108" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#52687b">&#x53F7;&#x6355;&#x624B;  /  &#x672C;&#x5730;&#x8D44;&#x6599;&#x5E93;</text>
+  <text x="72" y="245" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="70" font-weight="600" fill="#17283a">&#x6309;&#x8D44;&#x6599;&#x6574;&#x7406;&#x9700;&#x8981;&#xFF0C;</text>
+  <text x="72" y="338" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="70" font-weight="600" fill="#245cb8">&#x9009;&#x62E9;&#x9002;&#x5408;&#x7684;&#x5957;&#x9910;</text>
+  <rect x="72" y="412" width="936" height="208" rx="24" fill="#172b3d"/>
+  <text x="112" y="474" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#c6d8df">&#x6708;&#x65B9;&#x6848;</text>
+  <text x="112" y="563" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="65" font-weight="600" fill="#efd389">30 &#x5929;</text>
+  <text x="592" y="474" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#c6d8df">&#x5E74;&#x65B9;&#x6848;</text>
+  <text x="592" y="563" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="65" font-weight="600" fill="#fff">360 &#x5929;</text>
+  <text x="72" y="714" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="34" font-weight="600" fill="#17283a">&#x514D;&#x8D39;&#x7248;</text>
+  <text x="564" y="714" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="34" font-weight="600" fill="#245cb8">&#x4F1A;&#x5458;&#x7248;</text>
+  <text x="72" y="786" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#17283a">&#x672C;&#x5730;&#x6587;&#x7AE0;&#x9605;&#x8BFB;</text>
+  <text x="72" y="839" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#17283a">&#x5355;&#x7BC7;&#x57FA;&#x7840;&#x5BFC;&#x51FA;</text>
+  <text x="72" y="892" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#17283a">&#x767B;&#x5F55;&#x3001;&#x53CD;&#x9988;&#x4E0E;&#x793E;&#x533A;&#x652F;&#x6301;</text>
+  <text x="564" y="786" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#17283a">&#x6279;&#x91CF; / &#x7B5B;&#x9009;&#x5BFC;&#x51FA;</text>
+  <text x="564" y="839" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#17283a">&#x5B8C;&#x6574;&#x6570;&#x636E;&#x5E93;&#x5907;&#x4EFD;</text>
+  <text x="564" y="892" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="27" font-weight="400" fill="#17283a">&#x8BBE;&#x5907;&#x6FC0;&#x6D3B;&#x4E0E;&#x6807;&#x51C6;&#x652F;&#x6301;</text>
+  <text x="72" y="978" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="24" font-weight="400" fill="#17283a">&#x6279;&#x91CF;&#x6761;&#x6570;&#x4E0E;&#x8BBE;&#x5907;&#x6570;&#x91CF;&#x6309;&#x6388;&#x6743;&#x4E0A;&#x9650;&#xFF0C;&#x4E0D;&#x627F;&#x8BFA;&#x65E0;&#x9650;&#x989D;&#x5EA6;&#x3002;</text>
+  <rect x="72" y="1030" width="936" height="184" rx="18" fill="#e1e8e6"/>
+  <text x="110" y="1087" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="30" font-weight="600" fill="#17283a">&#x4EBA;&#x5DE5;&#x786E;&#x8BA4;&#x6536;&#x6B3E;&#xFF0C;&#x4EA4;&#x4ED8;&#x56FA;&#x5B9A;&#x5929;&#x6570;&#x6388;&#x6743;</text>
+  <text x="110" y="1141" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="26" font-weight="400" fill="#17283a">&#x4E0D;&#x81EA;&#x52A8;&#x7EED;&#x8D39;&#xFF1B;&#x8D2D;&#x4E70;&#x524D;&#x786E;&#x8BA4;&#x91D1;&#x989D;&#x3001;&#x7CFB;&#x7EDF;&#x4E0E;&#x4EA4;&#x4ED8;&#x5B89;&#x6392;&#x3002;</text>
+  <text x="110" y="1185" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#17283a">&#x90AE;&#x7BB1;&#x9A8C;&#x8BC1;&#x7801;&#x767B;&#x5F55;&#xFF0C;&#x7EBF;&#x4E0A;&#x5F00;&#x653E;&#x72B6;&#x6001;&#x4EE5;&#x670D;&#x52A1;&#x9875;&#x9762;&#x4E3A;&#x51C6;&#x3002;</text>
+  <text x="72" y="1270" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#17283a">macOS Apple Silicon &#x5DF2;&#x672C;&#x5730;&#x8FD0;&#x884C;&#xFF0C;&#x7B7E;&#x540D; / &#x516C;&#x8BC1;&#x9700;&#x786E;&#x8BA4;</text>
+  <text x="72" y="1310" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="23" font-weight="400" fill="#17283a">Windows &#x5B9E;&#x673A;&#x4E0E;&#x53D1;&#x5E03;&#x9A8C;&#x8BC1;&#x5C1A;&#x672A;&#x5B8C;&#x6210;</text>
+  <text x="72" y="1370" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="500" fill="#245cb8">&#x83B7;&#x53D6;&#x65B9;&#x5F0F;&#xFF1A;member.abssqr.com</text>
 </svg>
