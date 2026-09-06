@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+<rect x="0" y="0" width="1080" height="1440" rx="0" fill="#f5f2e9"/>
+<rect x="72" y="80" width="6" height="42" rx="0" fill="#e4b35c"/>
+<text x="98" y="111" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="25" font-weight="400" fill="#576b5c">号捕手 / 资料整理笔记</text>
+<text x="925" y="114" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="400" fill="#576b5c">02</text>
+<text x="72" y="279" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="76" font-weight="600" fill="#203e34">先把来源留下来</text>
+<text x="76" y="370" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="30" font-weight="400" fill="#576b5c">过一段时间，仍能核对这篇文章来自哪里。</text>
+<rect x="72" y="451" width="936" height="600" rx="18" fill="#ffffff"/>
+<text x="112" y="518" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="24" font-weight="400" fill="#576b5c">来源检查单 / 通用整理建议</text>
+<rect x="112" y="580" width="20" height="20" rx="3" fill="#f5f2e9"/><text x="154" y="608" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="32" font-weight="500" fill="#203e34">文章标题</text><text x="154" y="653" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="25" font-weight="400" fill="#576b5c">找到材料时，先确认是哪一篇</text>
+<rect x="112" y="706" width="20" height="20" rx="3" fill="#f5f2e9"/><text x="154" y="734" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="32" font-weight="500" fill="#203e34">作者或来源</text><text x="154" y="779" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="25" font-weight="400" fill="#576b5c">引用前，核对是谁发布的</text>
+<rect x="112" y="832" width="20" height="20" rx="3" fill="#f5f2e9"/><text x="154" y="860" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="32" font-weight="500" fill="#203e34">发布时间</text><text x="154" y="905" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="25" font-weight="400" fill="#576b5c">区分材料所处的时间</text>
+<rect x="112" y="958" width="20" height="20" rx="3" fill="#f5f2e9"/><text x="154" y="986" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="32" font-weight="500" fill="#203e34">原文链接</text><text x="154" y="1031" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="25" font-weight="400" fill="#576b5c">保留回查出处的线索</text>
+<text x="76" y="1147" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="32" font-weight="500" fill="#203e34">链接用于追溯来源。</text>
+<text x="76" y="1200" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="28" font-weight="400" fill="#576b5c">它不能替代已经保存到本地的正文。</text>
+<rect x="72" y="1310" width="936" height="2" rx="0" fill="#cbd3c4"/>
+<text x="72" y="1367" font-family="PingFang SC, Hiragino Sans GB, sans-serif" font-size="22" font-weight="400" fill="#576b5c">号捕手产品账号 · 整理方法示意，非软件运行截图</text>
+</svg>
